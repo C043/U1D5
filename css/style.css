@@ -153,8 +153,6 @@ a {
     display: block;
 }
 
-svg {
-    width: 25px;
-    margin-top: 2%;
-    position: -5px;
+i {
+    font-size: 20px;
 }
