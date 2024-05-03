@@ -1,1 +1,146 @@
-/* Your styles here */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    font-size: 1.2rem;
+    color: #393d41;
+    text-align: center;
+    box-sizing: border-box;
+    line-height: 1.65;
+}
+
+#epicode-logo {
+    width: 40%;
+    padding: 7% 0;
+}
+
+header {
+    width: 100%;
+    background-color: black;
+}
+
+#call-to-action {
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: 50%;
+    height: 375px;
+    margin-bottom: 10%;
+}
+
+.heading {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: bold;
+    font-size: 1.2em;
+    color: #25a2c3;
+    line-height: 1.5;
+    margin-bottom: 2%;
+}
+
+button {
+    background-color: #f04c2f;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: bold;
+    padding: 1em 2em;
+}
+
+.important-heading {
+    padding: 10% 5% 5% 5%;
+    font-size: 2em;
+    font-weight: 600;
+    line-height: 1;
+    margin-bottom: 0;
+}
+
+#important-paragraph {
+    margin: 0 5% 5% 5%;
+}
+
+.paragraph {
+    margin: 0 15% 5% 15%;
+}
+
+article {
+    margin-bottom: 7%;
+}
+
+#notebook {
+    border: 0px hidden black;
+    border-radius: 50%;
+    width: 75%;
+    margin-bottom: 5%;
+}
+
+.red-bg {
+    background-color: #e22d0e;
+}
+
+.testimonianze {
+    color: white;
+    padding: 8% 0;
+    margin-bottom: 15%;
+}
+
+.color-white {
+    color: white;
+}
+
+blockquote {
+    margin-bottom: 5%;
+}
+
+.quote {
+    font-size: 1.5em;
+}
+
+.card img{
+    width: 100%;
+}
+
+.card h3 {
+    margin-top: 5%;
+}
+
+.card p {
+    margin: 0% 5% 10% 5%;
+}
+
+.card {
+    width: 90%;
+    margin: auto;
+    border: 1px solid #dee1e3;
+    border-radius: 2px;
+    margin-bottom: 8%;
+}
+
+footer {
+    background-color: #25a2c3;
+    color: white;
+}
+
+hr {
+    width: 50%;
+    margin: 10% auto;
+}
+
+footer > a {
+    display: block;
+}
+
+a {
+    color: white;
+}
+
+#copyright {
+    padding-bottom: 20%;
+}
