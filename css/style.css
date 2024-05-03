@@ -134,7 +134,7 @@ hr {
 }
 
 footer > a {
-    display: block;
+    display: ;
 }
 
 a {
@@ -143,4 +143,18 @@ a {
 
 #copyright {
     padding-bottom: 20%;
+}
+
+.inline {
+    display: inline;
+}
+
+.block {
+    display: block;
+}
+
+svg {
+    width: 25px;
+    margin-top: 2%;
+    position: -5px;
 }
